@@ -20,6 +20,8 @@ void sort(vector<int> &v, int size)
         sum+=e;
     }
     std::cout << "sum = " <<sum << std::endl;
+    std::cout<<"好好学习，天天向上"<<std::endl;
+    std::cout<<"我是分支aaa"<<std::endl;
 }
 int main()
 {
