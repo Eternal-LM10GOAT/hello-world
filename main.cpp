@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void sort(vector<int> v, int size)
+void sort(vector<int> &v, int size)
 {
     int sum = 0;
     for (int i = 0; i < size - 1; ++i)
@@ -15,7 +15,11 @@ void sort(vector<int> v, int size)
             }
         }
     }
-    std::cout << sum << std::endl;
+    for(auto e:v)
+    {
+        sum+=e;
+    }
+    std::cout << "sum = " <<sum << std::endl;
 }
 int main()
 {
