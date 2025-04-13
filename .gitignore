@@ -1,0 +1,23 @@
+# CMake 生成文件
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+*.cmake
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.o
+*.a
+*.so
